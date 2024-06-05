@@ -7,7 +7,7 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar }) => {
 
   return (
     <div className="colaborador">
-      <AiFillCloseCircle className="deletar" onClick={aoDeletar}  size={25}/>
+      <AiFillCloseCircle className="deletar" onClick={aoDeletar} />
       <div className="cabecalho" style={{ backgroundColor: corDeFundo }}>
         <img src={colaborador.imagem} alt={colaborador.nome} />
       </div>

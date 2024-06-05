@@ -2,6 +2,10 @@ import Colaborador from "../Colaborador";
 import "./time.css";
 
 const Time = ({ time, colaboradores, aoDeletar }) => {
+    function deletarColaborador() {
+        console.log('Oi')
+    }
+
   return (
     colaboradores.length > 0 && (
       <section

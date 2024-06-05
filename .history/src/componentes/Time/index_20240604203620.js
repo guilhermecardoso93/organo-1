@@ -1,7 +1,7 @@
 import Colaborador from "../Colaborador";
 import "./time.css";
 
-const Time = ({ time, colaboradores, aoDeletar }) => {
+const Time = ({ time, colaboradores }) => {
   return (
     colaboradores.length > 0 && (
       <section
